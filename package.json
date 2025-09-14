@@ -1,0 +1,27 @@
+{
+  "name": "telegram-calorie-tracker-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для трекинга потребленных калорий",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "calories",
+    "tracking",
+    "health",
+    "nutrition"
+  ],
+  "author": "Harvi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6"
+  }
+}
